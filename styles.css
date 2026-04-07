@@ -1,0 +1,146 @@
+
+#card-wrapper {
+    width: 1000px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 15px;
+
+    background-color: bisque; 
+
+    clip-path: polygon(0% 100%, 0% 30%, 50% 0%, 100% 30%, 100% 100%);
+
+    background-image: radial-gradient(#ff9999 2px, transparent 2px);
+    background-size: 25px 25px;
+}
+
+h1 {
+   margin: 0;
+    font-family: 'Cinzel', serif; 
+
+    font-size: 55px;
+    color: #000;
+    text-transform: uppercase; 
+    letter-spacing: 3px;      
+    font-weight: 700;
+}
+
+ .logo-image{
+  transition: ease-in-out 2s ;
+ }
+  .logo-image:hover {
+    transform:rotate(180deg)
+  }
+
+body {
+    background-color: #faf3ea; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: bisque;
+}
+
+.card-music {
+    width: 1000px; 
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    margin: 15px;
+    padding: 0; 
+    position: relative;
+    background-color: bisque;
+}
+
+.card-music-player {
+    margin-left: 20px; 
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;     
+    flex-direction: column; 
+    width: 300px;
+}
+
+.barra-contenedor {
+    display: flex;            
+    flex-direction: row;      
+    align-items: center;      
+    justify-content: space-between; 
+    width: 100%;             
+    gap: 10px;                
+}
+
+.barra-fondo {
+    flex-grow: 1;             
+    height: 5px;
+    background: #444;
+    border-radius: 2px;
+}
+
+.progreso {
+    width: 30%;        
+    height: 100%;
+    background: white;
+    border-radius: 2px;
+}
+
+.controles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 20px;
+    font-size: 1.5rem;     
+}
+
+.patron-puntos {
+    width: 500px;
+    height: 250px;
+    background-color: transparent; 
+    background-image: radial-gradient(black 3px, transparent 3px);
+    background-size: 18px 18px;
+    -webkit-mask-image: radial-gradient(ellipse at center, black 10%, transparent 75%);
+    mask-image: radial-gradient(ellipse at center, black 10%, transparent 75%);
+    flex-shrink: auto; 
+    margin-left: -50px; 
+    margin: 50px;
+    z-index: 1;
+} 
+
+.card-music img {
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+
+.card-image {
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+    background-color: bisque;
+    background-image: url('adorno.jpg'); 
+    background-repeat: repeat; 
+    background-size: 60px 60px; 
+    background-position: center;
+}
+
+.card-image img {
+    height: 300px;
+    width: 280px;
+}
